@@ -1,0 +1,101 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Allerta', sans-serif;
+}
+
+.dash {
+    font-size: 20px;
+    padding: 60px;
+    background-image: url("assets/bg.jpg");
+    text-align: center;
+    color: whitesmoke;
+}
+header {
+    display: inline;
+  }
+  
+header img{
+    width: 250px;
+}
+  
+nav {
+    background-color: #080809;
+    padding: 5px;
+    position: sticky;
+    top: 0;
+}
+  
+nav li {
+    display: inline;
+    list-style-type: none;
+    margin-right: 20px;
+}
+  
+nav a {
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+    color: white
+}
+  
+nav a:hover{
+    font-weight: bold;
+}
+
+header h1 {
+    font-weight: lighter;
+}
+
+main {
+    background-color: #3f3f46;
+    color: white;
+    padding: 16px;
+}
+
+main .upper-score {
+    display: flex;
+}
+
+main .upper-score h2 {
+    flex: 1;
+    font-family: 'Amaranth', sans-serif;
+    font-size: 28px;
+    font-weight: normal;
+}
+
+main .upper-score h2:last-of-type {
+    text-align: end;
+}
+
+main .game-container {
+    text-align: center;
+}
+
+main .game-container h2 {
+    font-weight: normal;
+}
+
+main .game-container .game-container__selector {
+    display: flex;
+}
+
+main .game-container .game-container__selector button {
+    flex: 1;
+    height: 400px;
+    margin: 16px;
+    cursor: pointer;
+}
+
+button img {
+    width: 45%;
+}
+
+button {
+    overflow: hidden;
+    background-color: white;
+}
